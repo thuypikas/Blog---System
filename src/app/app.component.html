@@ -1,0 +1,27 @@
+<!-- nav -->
+<!-- <nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav> -->
+
+<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer text-center">
+    <p>
+        <a href="#" target="_top">Copyright © 2019 | All rights reserved to H-T Corp. </a>
+    </p>
+    <p>
+        <a href="#" target="_top">Designed by Thủy & Hiếu</a>
+    </p>
+</div>
